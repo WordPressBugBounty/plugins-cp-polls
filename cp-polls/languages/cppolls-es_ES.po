@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"X-Generator: Poedit 2.0.1\n"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Subject"
+msgstr "Asunto"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Please enter the captcha verification code."
+msgstr "Por favor entre el código de verificación captcha."
+
+msgid "Incorrect captcha code. Please try again."
+msgstr "Código de seguridad incorrecto. Por favor intente nuevamente."
+
+msgid "Please enter the security code"
+msgstr "Por favor entre el código de seguridad"
+
+msgid "Security Code"
+msgstr "Código de Seguridad"
+
+msgid "Coupon code"
+msgstr "Cupón"
+
+msgid "This field is required."
+msgstr "Este campo es requerido."
+
+msgid "Please enter a valid email address."
+msgstr "Por favor entre un email válido"
+
+msgid "Please enter a valid captcha code."
+msgstr "Por favor entre un código de seguridad válido."
+
+msgid "Please enter a valid date with this format(mm/dd/yyyy)"
+msgstr "Por favor entre una fecha válida con formato(mm/dd/yyyy)"
+
+msgid "Please enter a valid number."
+msgstr "Por favor entre un número válido."
+
+msgid "Please enter only digits."
+msgstr "Por favor entre solo dígitos."
+
+msgid "Please enter a value less than or equal to {0}."
+msgstr "Por favor entre un valor menor o igual a {0}"
+
+msgid "Please enter a value greater than or equal to {0}."
+msgstr "Por favor entre un valor mayor o igual a {0}"
