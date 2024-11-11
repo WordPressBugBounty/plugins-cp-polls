@@ -3,8 +3,8 @@ Contributors: codepeople
 Donate link: https://wordpress.dwbooster.com/forms/cp-polls
 Tags: poll,polls,voting,survey,vote
 Requires at least: 3.0.5
-Tested up to: 6.6
-Stable tag: 1.0.77
+Tested up to: 6.7
+Stable tag: 1.0.78
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -552,7 +552,10 @@ When you click a field already added into the poll form builder area, you can ed
 = 1.0.77 =
 * Improved sanitization
 
+= 1.0.78 =
+* Compatible with WP 6.7
+
 == Upgrade Notice ==
 
-= 1.0.77 =
-* Improved sanitization
+= 1.0.78 =
+* Compatible with WP 6.7

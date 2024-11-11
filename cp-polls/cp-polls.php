@@ -3,7 +3,7 @@
 Plugin Name: Polls CP
 Plugin URI: https://wordpress.dwbooster.com/forms/cp-polls
 Description: Create classic polls and advanced polls with dependant questions.
-Version: 1.0.77
+Version: 1.0.78
 Author: CodePeople
 Author URI: https://wordpress.dwbooster.com/forms/cp-polls
 License: GPL
@@ -74,11 +74,16 @@ add_action( 'init', array($cp_pollsnv_plugin, 'data_management'));
 
 function cppolls_plugin_init() {
    load_plugin_textdomain( 'cppolls', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+
+function cppolls_plugin_init_loaded() {
    $ao_options = get_option('autoptimize_js_exclude',"seal.js, js/jquery/jquery.js");
    if (!strpos($ao_options,'stringify.js'))
       update_option('autoptimize_js_exclude',"jQuery.stringify.js,jquery.validate.js,".$ao_options);
 }
-add_action('plugins_loaded', 'cppolls_plugin_init');
+
+add_action('init', 'cppolls_plugin_init');
+add_action('plugins_loaded', 'cppolls_plugin_init_loaded');
 
 //START: activation redirection 
 function cppolls_activation_redirect( $plugin ) {
